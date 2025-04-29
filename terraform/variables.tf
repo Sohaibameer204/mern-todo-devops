@@ -20,8 +20,9 @@ variable "subscription_id" {
 
 variable "resource_group_name" {
   type    = string
-  default = "Terraform-Resource-Group"
+  default = "my-new-rg-name"
 }
+
 
 variable "location" {
   type    = string
